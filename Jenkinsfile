@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/TeddyScript101/8.2CDevSecOps.git d'
+                git branch: 'main', url: 'https://github.com/TeddyScript101/8.2CDevSecOps.git'
             }
         }
         stage('Install Dependencies') {
